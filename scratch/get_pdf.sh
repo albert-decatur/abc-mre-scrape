@@ -5,5 +5,8 @@
 # must be saved as complete page
 # TODO - automate getting these
 
-inhtml=consulta.action.html
-cat $inhtml | grep -oE '<a href="http://pesquisa[.]in[.]gov[.]br/imprensa/jsp/visualiza/index[.]jsp[?]jornal=[^>]*' | sed 's:<a href="::g;s:"$::g' | sed 's:/jsp/visualiza/index.jsp:/servlet/INPDFViewer:g;s:$:\&captchafield=firistAccess:g'
+find -type f -iregex ".*[.]html$" |\
+while read inhtml
+do 
+	cat $inhtml | grep -oE '<a href="http://pesquisa[.]in[.]gov[.]br/imprensa/jsp/visualiza/index[.]jsp[?]jornal=[^>]*' | sed 's:<a href="::g;s:"$::g' | sed 's:/jsp/visualiza/index.jsp:/servlet/INPDFViewer:g;s:$:\&captchafield=firistAccess:g'
+done
