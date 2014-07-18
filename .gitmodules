@@ -1,0 +1,3 @@
+[submodule "scotts-utils"]
+	path = scotts-utils
+	url = https://github.com/AidData-WM/scotts-utils
