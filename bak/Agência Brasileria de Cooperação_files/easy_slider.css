@@ -1,0 +1,64 @@
+/* Easy Slider */
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{	
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+div.legenda {
+	color: #FFF;
+	background-color: #065172;
+	float: left;
+	height: 30px;
+	width: 450px;
+	margin-left: 0px;
+	font-size: 12px;
+	margin-top: 2px;
+	padding: 4px;
+}
+	#slider li, #slider2 li{
+	/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:450px;
+	height:365px;
+	overflow:hidden;
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+	padding:0;
+	height:20px;
+	float: right;
+	margin-top: -400px;
+	margin-right: 520px;
+		}
+	ol#controls li{
+	margin:0 10px 0 0;
+	padding:0;
+	float:left;
+	list-style:none;
+	height:20px;
+	line-height:20px;
+		}
+	ol#controls li a{
+	float:left;
+	height:20px;
+	line-height:20px;
+	border:1px solid #ccc;
+	background:#70a6bd;
+	color:#07415b;
+	padding:0 7px;
+	text-decoration:none;
+		}
+ol#controls li.current a, ol#controls li a:hover{
+	background:#07415b;
+	color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */
