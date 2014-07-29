@@ -6,4 +6,7 @@
 # TODO - automate getting these
 
 inhtml=$1
-cat $inhtml | grep -oE '<a href="http://pesquisa[.]in[.]gov[.]br/imprensa/jsp/visualiza/index[.]jsp[?]jornal=[^>]*' | sed 's:<a href="::g;s:"$::g' | sed 's:/jsp/visualiza/index.jsp:/servlet/INPDFViewer:g;s:$:\&captchafield=firistAccess:g'
+cat $inhtml |\
+grep -oE '<a href="http://pesquisa[.]in[.]gov[.]br/imprensa/jsp/visualiza/index[.]jsp[?]jornal=[^>]*' |\
+sed 's:<a href="::g;s:"$::g' |\
+sed 's:/jsp/visualiza/index.jsp:/servlet/INPDFViewer:g;s:$:\&captchafield=firistAccess:g'
