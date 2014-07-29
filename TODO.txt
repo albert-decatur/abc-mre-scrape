@@ -1,7 +1,0 @@
-from scratch/ execute this
-
-find . -type f -iregex ".*[.]html$" | parallel 'yr=$(echo "{}" | grep -oE
- "[0-9]{4}"|sort|uniq); pdfurls=$(../get_pdf.sh "{}" | sort | uniq ); function pdf_attr { echo "$pdfurls" | grep -oE "$1=[^&]*" | sed "s:$1=::g" ;}; jornal=$(pdf_attr jornal); pagina=$(pdf_attr pagina); date=$(pdf_attr data); echo -e "$jornal\t$pagina\t$date"'|less
-
-TODO: use yes to repeat as necessary, or else pipe these into single fields when there are multi values
-get PDFs and grab txt from there near abc/mre, esp. when amounts of money are mentioned
