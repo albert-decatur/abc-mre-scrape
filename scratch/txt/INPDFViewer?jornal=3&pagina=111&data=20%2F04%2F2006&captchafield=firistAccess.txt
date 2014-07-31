@@ -1,0 +1,210 @@
+3
+
+Nº 76, quinta-feira, 20 de abril de 2006
+babilidades. .3 - Física. Solução de Problemas Enfocando a Estática e a Dinâmica de Corpos Rígidos. 4
+- Termodinâmica. Conceitos Básicos. Propriedades das Substâncias. Modelos de Equação de Estado.
+Primeira e Segunda Leis da Termodinâmica. Energia e Entropia. Ciclo Padrão das Máquinas Térmicas.
+5 - Eletricidade Industrial. Conceitos Básicos. Circuitos de Corrente Alternada Monofásicos. Circuitos
+Trifásicos Equilibrados. Circuitos Magnéticos. Transformadores. Máquinas Rotativas.Máquinas Síncronas. Motores de Indução Monofásicos de Corrente Contínua. 6 - Princípios da Ciência dos Materiais.
+Características dos Materiais na Engenharia. Estrutura dos Materiais. Diagrama de Fases. Diagrama FeC, aços e ferros-fundidos. Tratamentos Térmicos. Ruptura Metálica. 7 - Transmissão de Calor. Fundamentos. Propriedades. Mecanismos de transmissão de calor. Permutadores de Calor. Caldeiras. 8 Tecnologia da Soldagem. Materiais Soldáveis Usados em Embarcações. Processos de Soldagem. Procedimentos de Soldagem para Obras. Ensaios Não-Destrutivos em Soldas. Tensões Internas e Distorções
+Devidas à Soldagem. Cortes a Oxigênio e a Plasma. 9 - Resistência dos Materiais. Noções de tensão e
+Deformação. Lei de Hooke. Estado Duplo-Círculo de Mohr. Equações Constitutivas. Tipos de Componentes Estruturais. Tração e Compressão. Diagrama de Esforços Solicitantes. Flexão e Momento de
+Inércia. Centro de Gravidade. Torção de Eixos Circulares e de Parede Delgada. Momento de Inércia
+Polar. Flambagem de Colunas. 10 - Máquinas de Fluxo. Teoria Geral das Turbomáquinas. Bombas.
+Perdas de Carga em Tubulações. Compressores. Turbinas (a Gás e a Vapor). 11. Motores de Combustão
+Interna. Ciclo de Funcionamento de Motores, Princípio de Funcionamento dos Motores a gasolina e a
+Diesel. Partes componentes. Desempenho. Turbo carregamento e Combustão nos Motores Diesel. Seleção de Motores. 12 - Corrosão. Corrosão Química e Eletroquímica. Tipos de Pilhas Eletroquímicas.
+Proteção por Pintura e Proteção Catódica. 13 - Arquitetura Naval. Projeto da Geometria do casco.
+Cálculos Hidrostáticos. Tratamento Matemático da Forma. Equilíbrio de Corpos flutuantes. Borda Livre.
+Arqueação. Docagem. Encalhe e Lançamento de Embarcações. Estabilidade Estática de Corpos Flutuantes. Estabilidade Transversal a Pequenos e Grandes Ângulos de Inclinação. Solicitações Externas à
+Inclinação. Teste de Inclinação. Avaria e Subdivisão. Métodos de Avaliação de Avarias. Tipos de
+Avarias. Estabilidade em Avaria. Norma, Regulamentos e Critérios de Estabilidade. 14 - Hidrodinâmica.
+Conceitos fundamentais. Estática dos Fluidos. Cinemática dos Fluidos. Introdução à Dinâmica dos
+Fluidos. Escoamento sem Viscosidade, Incompressível e Unidirecional. Escoamento sem Viscosidade e
+Incompressível: Plano e Tridimensional. Análise Dimensional e Semelhança. Escoamento Viscoso Incompressível. Teoria da Camada Limite. Escoamento com Superfície Livre. Introdução ao Estudo de
+Sistemas. Oceânicos. Escoamentos em Canais Abertos. Movimento em Vórtices. Teoria do Perfil. Teoria
+de Asa. Escoamento Compressível. Resistência ao Avanço. Propulsores. Prova de Mar. Equações do
+corpo rígido. Especificação das ações fluidas. Mar Regular e Irregular. Teoria Espectral. Comportamento
+de Ondas em Navios e Sistemas Oceânicos. 15 - Análise das Estruturas Oceânicas. Função dos Elementos Estruturais. Cálculo de Cargas em Estruturas Flutuantes. Propriedades Relevantes de Materiais
+Estruturais. Resistência Longitudinal de Navios. Cálculo do Módulo de Seção. Padrões de Resistência.
+Teoria da Flexão de Placas Finas. Flambagem de Placas. Mecânica Estrutural de Navios e Plataformas
+Oceânicas. Modelação Estrutural Local. Teoria das Estruturas. Modelação Estrutural Global. O Método
+dos Deslocamentos. Previsão de Tensões em Estruturas Oceânicas. Previsão da Vida à Fadiga em
+Estruturas Oceânicas. Vibração de Estruturas Oceânicas. Método dos Elementos Finitos Aplicado à
+Dinâmica de Estruturas. Comportamento Dinâmico de "Reses" Rígidos e Flexíveis. 16 - Conhecimentos
+na área da Engenharia Naval ou Civil. Noções de: dispositivos constitucionais; Lei Federal 9.478/97;
+Decreto Federal 2.745/98.
+NÍVEL MÉDIO
+OPERADOR(A) I
+I - Matemática: 1 -Teoria dos conjuntos. 2 - Proporcionalidade e regra de três. 3 - Porcentagem
+e médias. 4 - Funções: funções algébricas de 1o e de 2º graus. 5 - Trigonometria: funções trigonométricas
+e relações fundamentais; identidades e equações trigonométricas; as leis do seno e do cosseno; funções
+trigonométricas inversas e resolução de triângulos. 6 - Sistemas de equações lineares: resolução e
+discussão. 7 - Geometria espacial: estudo dos prismas, pirâmides, cilindros, cones e esferas: superfícies
+e volumes 8 - Geometria analítica: estudos relativos a ponto, reta e lugares geométricos, a circunferência,
+a elipse, a parábola e a hipérbole. 9 - Geometria plana: polígonos e áreas. II - Física: 1 - Grandezas
+físicas. Sistema Internacional de Unidades. 2 - Mecânica. 2.1 - As Leis de Newton. 2.2 - Força e peso.
+2.3 - Atrito estático e dinâmico. 2.4 - Trabalho de uma força, energias cinética, potencial, gravitacional
+e elástica, energia mecânica e sua conservação. 2.5 - Potência mecânica e rendimento de uma máquina.
+2.6 - Densidade absoluta e relativa, pressão hidrostática e atmosférica. 3 - Termologia. 3.1 Conceitos de
+calor, de temperatura e de equilíbrio térmico. 3.2 Escalas termométricas. 3.3 Calor específico sensível,
+capacidade térmica e trocas de calor. 3.4 As mudanças de estado físico e calor específico latente. 3.5
+Dilatação térmica dos sólidos e dos líquidos. 3.6 - Comportamento térmico dos gases perfeitos, transformações gasosas e suas leis. 3.7 Termodinâmica: leis da termodinâmica e máquinas térmicas. 4 -
+
+.
+
+Ministério do Desenvolvimento Agrário
+
+<!ID370431-0>
+
+<!ID368506-0>
+
+EXTRATO DE TERMO DE COOPERAÇÃO TÉCNICA
+
+a) Espécie: Projeto de Cooperação Técnica Internacional que celebram entre si a União Federal, por intermédio do Ministério do
+Desenvolvimento Agrário e da Agência Brasileira de Cooperação ABC/MRE e o Programa das Nações Unidas para o Desenvolvimento
+- PNUD; b) Objeto: “Consolidação da agricultura familiar como eixo
+de desenvolvimento sustentável do País por intermédio do aprimoramento das políticas de apoio ao segmento.” c) nº do Processo:55000.000739/2006-15; d) Fundamento Legal: Decreto nº 5.151 de
+22/07/2004; e) Dos recursos: O Projeto foi orçado no valor de US$
+8,678,675.00 (oito milhões, seiscentos e setenta e oito mil e seiscentos e setenta e cinco dólares norte americanos), calculados à taxa
+de câmbio das Nações Unidas de março de 2006; f) Vigência:
+06/04/2006 à 31/12/2007; g) assinam em 22/03/06 o Ministro do
+Desenvolvimento Agrário Miguel Rossetto, em 29/03/06 o Ministro
+Mário Ernani Saade - Diretor Substituto da Agência Brasileira de
+Cooperação - ABC-MRE; e em 06/04/06 o Represente Residente
+Interino do PNUD, Lucien Muñoz; h) Diretor Nacional: Valter Bianchini - Secretário de Agricultura Familiar.
+
+ANEXO V
+CRONOGRAMA DE EVENTOS BÁSICOS
+ATIVIDADE
+
+DATA
+
+Inscrições
+
+27/04 a 08/05/2006
+
+Entrega dos Cartões de Confirmação de Inscrição (via CORREIOS)
+
+Até 07/06/2006
+
+Atendimento aos(às) candidatos(as) que não tenham recebido os Cartões de Confirmação de Inscrição
+(vide subitem 5.5)
+
+08 e 09/06/2006
+
+Aplicação das provas objetivas
+
+11/06/2006
+
+Divulgação dos gabaritos das provas objetivas (via Internet)
+
+12/06/2006
+
+Interposição de recursos contra as provas objetivas e/ou gabaritos (vide item 8)
+Divulgação dos resultados finais
+
+Até 14/06/2006
+30/06/2006
+
+EXPLORAÇÃO E PRODUÇÃO
+EXPLORAÇÃO E PRODUÇÃO SUL-SUDESTE
+UNIDADE DE NEGÓCIOS DE EXPLORAÇÃO
+E PRODUÇÃO DO RIO DE JANEIRO
+UNIDADE DE NEGÓCIOS DE EXPLORAÇÃO
+E PRODUÇÃO DO RIO DE JANEIRO
+AVISO DE LICENÇA
+
+<!ID367723-0>
+
+A Petróleo Brasileiro S.A. - PETROBRAS torna público que recebeu em 17.04.2006, do
+Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, a Licença de
+Operação (LO) nº 537/2006, autorizando a atividade de operação do Sistema de Produção e Escoamento
+de Petróleo e Gás Natural do Campo de Albacora Leste, Bacia de Campos, a ser realizada pela unidade
+FPSO P-50. Esta Licença de Operação terá vigência até o dia 30 de abril de 2010.
+
+AVISO DE LICITAÇÃO
+CONCORRÊNCIA N o 3/2006
+
+Objeto: Contratação de empresa para prestação de serviços de suporte
+e assessoramento de divulgação Total de Itens Licitados: 00001. Edital: 20/04/2006 de 08h30 às 11h30 e de 14h às 17h30. Endereço: SBN
+Edifício Palácio do Desenvolvimento 7º andar Protocolo Asa Norte BRASILIA - DF. Entrega das Propostas: 22/05/2006 às 09h30
+ANDRÉ PEREIRA VIEIRA
+Coordenador
+Substituto
+
+RICARDO CASELLI MONI
+Gerente de Segurança, Meio Ambiente e Saúde
+
+06.116.840/0001-09 registrado sob CRT/MB/10003.4/2006 Proc.:
+54600..002060/2004-69 - Objeto: alocar recursos para o exercício de
+2006, na ordem de R$ 408. 618,80 do concedente conforme empenhos 2006NE0000026, 2006NE0000027, 2006NE0000028 e
+2006NE0000029, PTRES: 001622 e 001623 Fonte: 0100000000,
+0176370002 ED: 3350.30, 3350.33, 3350.36 3350.39 . Assinatura:
+18/04/2006- signatários: Raimundo de Oliveira Filho - Superintendente Regional do INCRA/SR (27), Jeane Magali Fernandes Prado
+Treviso-Diretora Presidente da Amazon Rural.
+
+DIRETORIA DE GESTÃO ADMINISTRATIVA
+COORDENAÇÃO-GERAL DE CONTABILIDADE
+DIVISÃO DE PRESTAÇÃO DE CONTAS
+<!ID369319-0>
+
+(SIDEC - 19/04/2006) 490002-00001-2006NE900094
+
+INSTITUTO NACIONAL DE COLONIZAÇÃO
+E REFORMA AGRÁRIA
+COORDENAÇÃO DO PROGRAMA
+DE DESENVOLVIMENTO DO SISTEMA FUNDIÁRIO
+NACIONAL
+SUPERINTENDÊNCIA REGIONAL DO SUL
+DO PARÁ
+<!ID369707-0>
+
+111
+
+Eletricidade e magnetismo. 4.1 Condutores e isolantes de eletricidade, processos de eletrização. 4.2
+Corrente elétrica e as leis de Ohm. 4.3 Associação de resistores. 4.4 Estudo do gerador e do receptor
+elétrico. 4.5 Circuitos elétricos simples contendo amperímetros e voltímetros. III- Química: 1 - Introdução ao estudo de Química e propriedades da matéria. 2 - Fenômenos físicos e químicos. 3 Substâncias e misturas - classificação e propriedades. 4 - Reações químicas e suas classificações. 5 Número de oxidação e oxirredução. 6 - Soluções: classificação, unidades de concentração, diluição,
+misturas de soluções e titulação. 7 - Termoquímica: energia interna, entalpia, calores de reação. 8 Conceito de pH, hidrólise e solução tampão: aplicações. 9 - Estudo do átomo de carbono. 10 - Estudos
+das cadeias carbônicas. 11 - Estudo da acidez e basicidade das substâncias. IV - Conhecimentos
+Técnicos: 1 - Metrologia. 2 - Desenho técnico. 3 - Leitura de plantas. 4 - Instrumentos de medição:
+Paquímetros e comparadores, amperímetro, voltímetro, termômetro e manômetro. 5 - Identificação de
+componentes com defeitos. 6 - Diagnóstico de defeitos em circuitos, equipamentos e conjuntos de
+bombeamento. 7 - Seleção de materiais. 8 - Motores elétricos. 9 - Manutenção corretiva e preventiva. 10
+- Noções de Segurança de trabalho.
+ELETRICISTA ESPECIALIZADO(A)
+1 - Grandezas elétricas e magnéticas. Sistema Internacional de Unidades. 2 - Simbologia
+elétricos. 3 - Desenho técnico. 4 - Circuitos elétricos. 5 - Circuitos de corrente contínua. 6 - Corrente e
+tensão senoidais: valor eficaz. 7 - Impedância. Notação fasorial. 8 - Potência. Correção do fator de
+potência. 9 - Circuitos trifásicos. 10 - Eletromagnetismo. 11 - Medidas elétricas. 12. Máquinas elétricas.
+13 - Transformadores. 14 - Geradores e motores. 15 - Acionamentos e controles elétricos. 16 Equipamentos elétricos. 17 - Aterramento. 18 - Instalações elétricas de alta e baixa tensão. 19 Iluminação. 20 - Manutenção elétrica. 21 - Eletrônica analógica e digital. 22 - Automação.
+
+SECRETARIA EXECUTIVA
+SUBSECRETARIA DE PLANEJAMENTO,
+ORÇAMENTO E ADMINISTRAÇÃO
+
+GABINETE DO MINISTRO
+
+ISSN 1677-7069
+
+EXTRATO DE TERMO ADITIVO
+
+Quarto Termo Aditivo ao Convênio CRT/MB/10003/2004, firmado
+entre o Instituto de Nacional de Colonização e Reforma AgráriaINCRA-SR-27 e a Empresa Agencia de Desenvolvimento Agroecololico dos Ecossistema da Amazonia - Amazon Rural - CNPJ:
+
+EXTRATO DE TERMO ADITIVO
+
+Terceiro Termo Aditivo ao Convênio CRT/DF/53.100/05 que entre si
+celebram o Instituto Nacional de Colonização e Reforma AgráriaINCRA e a Fundação Assistencial dos Servidores do INCRA - FASSINCRA,
+CNPJ:00431403/0001-95,
+registrados
+sob
+CRT/DF/53103/06, Processo: 54000.000708/05-11 Objeto: Alocar recursos no valor Total de R$ 17.217.076,80, sendo R$ 15.651.888,00
+do Orçamento do INCRA e R$ 1.565.188,80, referente a contrapartida da convenente, constante do Projeto de Lei orçamentário de
+2006, necessários ao atendimento do Convênio DF/53.100/05.Para a
+execução do Convênio no presente exercício está assegurado, inicialmente, o valor de R$ 1.304.324,00, conforme Programa de Trabalho: 21.301.0750.2004.0001, Plano Interno:SA750.2004.09, Fonte
+0176, Elemento de Despesa:335039 Nota de Empenho:
+2006NE000129 de 07/03/2006. Assinatura: 18/04/2006 Signatários:
+Rolf Hackbart -Presidente do INCRA e Inimá do Nascimento SilvaDiretor Executivo da FASSINCRA.
+
+
