@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class=" js flexbox canvas canvastext webgl touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" dir="ltr" lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="DC.date.valid_range" content="2014/05/20 - "><meta name="DC.date.modified" content="2015-01-02T10:09:30-02:00"><meta name="DC.format" content="text/plain"><meta name="DC.type" content="Capa"><meta name="DC.date.created" content="2014-05-19T18:53:05-02:00"><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/reset-cachekey-47e7b444a2d8a8e3aec6f7d1167f0734.css" media="screen"><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/base-cachekey-36dff7a102936258b47ca1248f16f225.css"><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourceplone.css" media="screen"><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey-4f476b2bd7dc773a3db1e3ecb09aeb62.css);</style><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourceplone_002.css" media="screen"><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourcecalendar_stylescalendar-cachekey-fd25deac166c14b7f7fc12ab1c76c31e.css);</style><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcebrasil_003.css"><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcebrasil.css" media="all" title="Brasil.gov.br: Barra"><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cachekey-108aa98e66e100c94e3e5257c0c23632.css);</style><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourceProducts.Doormat.stylesheetsdoormat-cachekey-b4b07e82a677770abde966d8d8009993.css);</style><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/embedder-cachekey-f9ef54974975715884cc82c63d0ddfba.css" media="screen"><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourcesl_stylesheetssocial_like-cachekey-dc9be03aeda7844288f02f03be18769d.css);</style><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourcecollective.nitfcharcount-cachekey-721832c9571128d0c071c3f9c251eb8d.css);</style><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/ploneCustom-cachekey-89d91aa5b85c3c4f2e7319fa87abaf0a.css" media="all"><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/resourcecollective.uploadcssbootstrap.min-cachekey-3311ee82ef36f8e16a90a4fb3c9215c2.css);</style><!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://portal.in.gov.br/portal_css/Sunburst%20Theme/IEFixes-cachekey-7566f3261028620ed35f1185b03b5bbf.css" media="screen" />
+        <![endif]--><style type="text/css" media="screen">@import url(http://portal.in.gov.br/portal_css/Sunburst%20Theme/custom-cachekey-24ee203d296854b084077a73d5b029aa.css);</style><link rel="stylesheet" type="text/css" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcebrasil_002.css"><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourceplone.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/collective.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourceplone_002.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcecollective_002.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/jquery.js"></script><!--[if lte IE 8]>
+     
+    <script type="text/javascript" src="http://portal.in.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjsexcanvas.min-cachekey-16149bf17d23c54785c648459efcb1ad.js"></script>
+       <![endif]--><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcecollective_003.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/legendothers_translation.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcecollective.js"></script><script type="text/javascript" src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/resourcejquery.js"></script><title>Página Inicial — Portal da Imprensa Nacional</title><link rel="http://purl.org/dc/terms/subject http://schema.org/about http://xmlns.com/foaf/0.1/primaryTopic" href="http://vocab.e.gov.br/2011/03/vcge#esquema"><link rel="canonical" href="http://portal.in.gov.br/"><script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['pt-BR'],
+                {dateFormat: 'dd/mm/yy'}));
+        });
+        </script><link rel="alternate" href="http://portal.in.gov.br/RSS" title="Portal da Imprensa Nacional - RSS 1.0" type="application/rss+xml"><link rel="alternate" href="http://portal.in.gov.br/rss.xml" title="Portal da Imprensa Nacional - RSS 2.0" type="application/rss+xml"><link rel="alternate" href="http://portal.in.gov.br/atom.xml" title="Portal da Imprensa Nacional - Atom" type="application/rss+xml"><link rel="search" href="http://portal.in.gov.br/@@search" title="Buscar neste site"><meta name="generator" content="Plone - http://plone.org"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link rel="shortcut icon" href="http://pesquisa.in.gov.br/++theme++azul/img/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" href="http://pesquisa.in.gov.br/++theme++azul/img/touch_icon.png"><!-- Plone CSS - only for preview, will be removed in rules.xml --><!-- Theme CSS - only for preview, will be removed in rules and added in CSS registry --><link media="all" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/style_002.css" type="text/css" rel="stylesheet"></head><body dir="ltr" class="template-view portaltype-collective-cover-content site-imprensa section-pagina-inicial userrole-anonymous"><div id="barra-brasil">
+ <div id="wrapper-barra-brasil">
+	
+<style>
+
+#barra-brasil .brasil-flag .link-barra {
+    display: block;
+    padding-left: 42px;
+    width: 43px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAIAAAABJ4pRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABINJREFUeNqUVFtsFFUYPrfdmdnLbLe021baQqWUtdJKL5QiASPiNVqC0TYqUWLShJQmRH3RqPHFRKJvQqIPQNSAAcMDptGEiKjYpLZIkSqGXqjdFlppd3vb7c7Ozpxz/M+2wZD44snszOzJnP//vv///g9XnNiXtNISI1gYq4eUEu4CC7SyiLpJgtSOIJKg/1ySB3x+NmsvJLNpgVUwlAu08iIkzi2pUhHIAa/q1L9p7l6YWmmHEOSBWJD6LixwJ7DDAKR06c6imQOVYxoRyEV4BR3JBYfvqNqBtILrSGNEKgoCsVxWDMmxgAOADeDjQsP+oHbo1egk7B+Mju/vq7kwVYhohsAxoiogiIM5hBaSUIBFfS21WRcOSwUHOwgTqoJR+O0pv31u56XmUKrvt4o/RyNrjVRHw40iLdU9Hck4DPBQxOQKK/XQqQa7nGNb8UICSUoE4y4rCyweqh164b7Jk12N737x2NjtfMAeCDit268e7jj7yOqfX++p+ebvQk5coAB8BQIMroqaf7xt3p4TUATgxj0Y0wOVN96uHomE3I+Ob37zSJvUHURshjySIZ4JPLhp+IcPj3h1eSZ2zxu/R8cXDeThuSLJkGZSY/fGjGOrenG9xlz8vPnK/g0xEwprl52PH9ryUGRLk1lfXWqGCcE0lUqOjxeHVy01141V+5Mvlk+lOLmcAOwC6OpMo8FnqlOCh2j2taqRE1sHKk2LuFJq6NveumNd9f0Dt2IjC1aGVKwzdz1cUryaxSasW9Oo/dFfoaEB6jxdOl2Xt3BtwYw7Xh/VmQNNcNHj5fH3N40CQgnNAAUQMjgh+y/dpIblN9j14fHuHqEFvPUP5L3Svp4mHNtGmgbaVF1oWZNIi8GXextALUpEhLqnJ0o3f9fcEw9iD3RFCaUiMmvmG/lhI50VBQX6ujX5ju3+dHHm1Mmb9dGsxyRKSwylHNLRt2HvL42O4C5IhsLsgEII74+Hd1zY+s5AdMklguMnmkaLwn9RGgr7dSfLk5ZreGhJUdD0+oz0ZxSOMNQ1VdB4fscnw5VCiOUBpb7d91vcklBJJpDwXpwOn50qKdXs2tLZpoqJU99XxVPBbMayXRnOK/Dp5p5tZzpbu0cT+sErG9/6o2rW9iLKQbOget2jQbgay3UIJrlhlJSK6Yz3dKx4dD74Ut3Ivu2X5xe8CSvopdm1kdh7e7/sfO7Ho4PlrT0NvTMhTISaaRhUoImITr244Njz8WwSVKOMhBI1hdIBMQuXlARShxuvPbt+3k0gx9GMsDVp0c7emq8nSiSFjzkVlCuKfHl+Q0aQai21Gb4E7SA59wDWGLLBg+Kk6/lqrKw/4dtWOLfKn/74+r2t3fVX5/IwcyExIBAKFFWOhskyWVx4tG3GmUfKCFRbOHYBNjiC6hBkBTrQRl+mSLeHZkOYOXeMRxIFCb6SME5gYJiGvH7MPn0q5wBCgqkgF4xBEVfdhksTyMmNpFT/chJQJQbkgitE8o73gRe4HsRYe/RJy86IFYtU1pVzSqxC/J8F5fMz/z8CDAAkCSSg0qSX5AAAAABJRU5ErkJggg==) 8px center no-repeat;
+    text-transform: uppercase;
+    line-height: 19px;
+}
+#barra-brasil {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 32px;
+}
+#portal-siteactions a, #portal-siteactions a:hover, #portal-language a, #portal-language a:hover {
+    color: rgb(220, 236, 255) !important;
+}
+
+
+
+#portal-title {
+ 
+    font-family: arial !important;
+
+}
+
+
+
+#barra-brasil {
+    height: 32px;
+    background: none repeat scroll 0% 0% #F1F1F1;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 32px;
+}
+
+
+
+ 
+#header {
+    padding: 14px 0px 0px;
+    background-color: #1659BF;
+    color: #FFF;
+}
+
+#sobre {
+    background: none repeat scroll 0% 0% #0F4098;
+}
+
+#sobre a {
+    color: #FFF;
+}
+
+#accessibility a {
+    color: #DCECFF;
+}
+
+ 
+
+#wrapper-barra-brasil {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+#barra-brasil .brasil-flag {
+    float: left;
+    padding: 7px 9px 6px;
+    width: 100px;
+    height: 19px;
+    border-right: 2px solid #dfdfdf;
+}
+
+
+#barra-brasil .acesso-info {
+    position: absolute;
+    left: 130px;
+}
+
+#barra-brasil .list {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#barra-brasil .list .first { border-left: 2px solid #dfdfdf; }
+
+#barra-brasil .list-item {
+    display: inline-block;
+    padding: 0 15px 0 13px;
+    height: 32px;
+    border-right: 2px solid #dfdfdf;
+}
+
+#barra-brasil .link-barra { color:  #606060; }
+
+@media screen and (max-width: 668px)  {
+    #barra-brasil .list { top: -100px; }
+}
+
+@media screen and (min-width: 960px) {
+    #wrapper-barra-brasil { width: 960px; }
+}
+
+#barra-brasil .hashtag-barra-brasil span {
+    color: #fffba2;
+    padding-left: 42px;
+}
+#barra-brasil div, #barra-brasil a, #barra-brasil ul, #barra-brasil li {
+    font-size: 100%;
+    font-family: inherit;
+}
+#portal-logo, #portal-title {
+    color: rgb(255, 255, 255) !important;
+ 
+}
+
+</style><div class="brasil-flag">
+            <a href="http://brasil.gov.br/" class="link-barra">Brasil</a>
+        </div>
+        <span class="acesso-info">
+            <a href="http://brasil.gov.br/barra#acesso-informacao" class="link-barra">Acesso à informação</a>
+        </span>
+        <ul class="list"><li class="list-item first"><a href="http://brasil.gov.br/barra#participe" class="link-barra">Participe</a></li>
+            <li class="list-item"><a href="http://www.servicos.gov.br/" class="link-barra">Serviços</a></li>
+            <li class="list-item"><a href="http://www.planalto.gov.br/legislacao" class="link-barra">Legislação</a></li>
+            <li class="list-item last last-item"><a href="http://brasil.gov.br/barra#orgaos-atuacao-canais" class="link-barra">Canais</a></li>
+        </ul></div>
+</div><div id="wrapper">
+
+        <!-- HEADER -->
+
+        <div id="header" role="banner">
+
+            <div>
+
+                <!--
+            <ul id="language">
+                <li class="language-es">
+                    <a href="#">Espa&#241;ol</a>
+                </li>
+                <li class="language-en">
+                    <a href="#">English</a>
+                </li>
+            </ul>
+            --><ul id="portal-siteactions"><li id="siteaction-accessibility"><a href="http://portal.in.gov.br/acessibilidade" title="Acessibilidade" accesskey="5">Acessibilidade</a></li>
+    <li id="siteaction-contraste"><a href="#" title="Alto Contraste" accesskey="6">Alto Contraste</a></li>
+    <li id="siteaction-mapadosite"><a href="http://portal.in.gov.br/mapadosite" title="Mapa do Site" accesskey="7">Mapa do Site</a></li>
+</ul><div id="logo">
+    <a id="portal-logo" title="Portal da Imprensa Nacional" href="http://portal.in.gov.br/">
+            <span id="portal-title-1"></span>
+            <h1 id="portal-title" class="corto">Imprensa Nacional</h1>
+            <span id="portal-description">Casa Civil da Presidência da República</span>
+    </a>
+</div>
+          
+
+            <div id="social-icons">
+                <ul></ul></div>
+
+        </div>
+        <div id="sobre">
+            <ul><li id="portalservicos-in-com" class="portalservicos-item"><a href="http://portal.in.gov.br/servicos/in-com" title="INCom - Envio de Matérias">INCom - Envio de Matérias</a></li><li id="portalservicos-e-diarios" class="portalservicos-item"><a href="http://portal.in.gov.br/servicos/e-diarios" title="e-Diários - Assinatura Eletrônica">e-Diários - Assinatura Eletrônica</a></li><li id="portalservicos-in-busca" class="portalservicos-item"><a href="http://portal.in.gov.br/servicos/in-busca" title="INBusca - Alerta de Publicação">INBusca - Alerta de Publicação</a></li><li id="portalservicos-contato" class="portalservicos-item"><a href="http://portal.in.gov.br/servicos/contato" title="Contato">Contato</a></li></ul></div>
+    </div>
+	
+	
+
+	</div><br><br><br>
+
+	
+
+
+
+
+
+
+
+
+	
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="imagetoolbar" content="no">
+		
+		<link rel="shortcut icon" href="http://pesquisa.in.gov.br/imprensa/jsp/layout_portal/azul/img/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="http://pesquisa.in.gov.br/imprensa/jsp/layout_portal/azul/img/touch_icon.png">
+		<link media="screen" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/plone.css" type="text/css" rel="stylesheet" id="plone-css">
+		<link media="all" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/main.css" type="text/css" rel="stylesheet" id="main-css">
+		<link media="all" href="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/style.css" type="text/css" rel="stylesheet">
+
+		<style type="text/css">
+
+			<!-- @import url(../css/pesquisaresultado1.css);-->
+			.consulta{
+				position:absolute;
+				float: right;
+				opacity:0.95;
+				-moz-opacity:0.95;
+				filter:alpha(opacity=95);
+				height:260px;
+				z-index: 1000;
+				background:#f5f5f5;
+				margin-left:30em;
+				margin-right:0;
+				margin-top:10em;
+				  -moz-box-shadow:    2px 3px 2px 3px #ccc;
+				  -webkit-box-shadow: 0px 3px 3px 3px #ccc;
+				  box-shadow:       0 0 2px rgba(0, 0, 0, 0.3);
+				  border: 2px solid rgba(0,0,0,0.05);
+			}
+			th.data a{font-size: 14px; font-weight: bold; target=_blank}
+			td.data{height: 45px; vertical-align: top; font-size: 11px;}
+			th.data{
+				font-weight: normal;
+				font-size: 9px;
+				color: green;
+			}
+			
+			th a{font-size: 14px;}
+			td{height: 30px; vertical-align: middle;}
+			
+			#paginacao{text-align:center; width:760px; font-size:12px;}
+			#conteudo{
+				width:760px;
+				margin:auto;
+			}
+			#topo{height:30px; with:760px;}
+			.abaconteudo{
+				width:150px;
+				height:30ps;
+				align:center;
+				background:#ccc;
+				margin-left:1.5em;
+				cursor: pointer;
+			}
+			#sistema{
+				height:30px; 
+			}
+			#sistema a{
+				color:#004B82;
+				float:right;
+				font-size:1.2em;
+				font-style:italic;
+				font-weight:bold;
+				padding-right:1.5em;
+			}
+			
+		</style>
+		
+		<title>Portal da Imprensa Nacional — Resultado da Pesquisa</title>
+
+		<script>
+		  
+			$(document).ready(function(){
+				$(".consulta").hide();
+				$(".abaconteudo").click(function(){
+					$(".consulta").animate({height:'toggle'})
+				});
+			});
+			
+			function submete(pagina){
+			    window.document.forms[0].action = "consulta.action";
+			    document.getElementById("paginaAtual").value = pagina;
+			    window.document.forms[0].submit();
+			}
+			
+			$(document).ready(function() {
+				$("form#pesquisa02").submit(function() {
+					var selectedGroups  = new Array();
+					$(".jornal_avancada:checkbox:checked").each(function() {
+							selectedGroups.push($(this).val());
+						});
+					$(".hidden_avancada").each(function(){
+						if (selectedGroups.length==0) {				
+							document.getElementById('hidden_avancada').value = document.getElementById('consultaAntiga_jornal').value;
+						};
+					});
+					
+				});
+			});
+	
+			function validaForm(formulario){
+
+				if(formulario == 'dia' || formulario == 'avancada'){
+					var valorCampoTexto = 'txtPesquisa_'+ formulario;
+					texto = document.getElementById(valorCampoTexto).value;
+					if(Trim(texto) == "") {
+						alert("Informe uma palavra ou termo para pesquisa!");
+						return false;
+					}
+				}
+				
+				var varAno = "ano_"+formulario;
+				var varFim = "dt_fim_"+formulario;
+				var varInicio = "dt_inicio_"+formulario;
+				var ano = document.getElementById(varAno).value;
+				var data1 = document.getElementById(varInicio).value;
+				var data2 = document.getElementById(varFim).value;
+				var dia1 = data1.substring (0, data1.indexOf("/",1));
+				var mes1 = data1.substring ((data1.indexOf("/",1)+1), (data1.lastIndexOf("/")+3));
+				var dataInvertida1 = ano +"/"+ mes1 +"/"+ dia1;
+			  
+				valida1 = VerificaData(dataInvertida1);
+				if(!valida1) {
+					return false;
+				};
+				
+				var dia2 = data2.substring (0, data2.indexOf("/",1));
+				var mes2 = data2.substring ((data2.indexOf("/",1)+1), (data2.lastIndexOf("/")+3));
+				 
+				dataInvertida2 = ano +"/"+ mes2 +"/"+ dia2;
+				valida2 = VerificaData(dataInvertida2);
+				if(!valida2) {
+					return false;
+				};
+				
+				date1= Date.parse(dataInvertida1);
+				date2= Date.parse(dataInvertida2);
+				iDifference = (date2-date1)/(24*60*60*1000);
+				if (iDifference < 0) {
+					alert("A data inicial deve ser menor que a data final.");
+					return false;
+				}
+				
+				return true;
+				
+			}
+		
+		</script>
+		
+	
+	
+	
+		
+		<div style="display: none;" class="consulta"> 
+		
+			        
+<form id="pesquisa02" name="pesquisaAvancada" onsubmit="javascript:return validaForm('avancada');" action="/imprensa/core/consulta.action" method="post">
+				
+				<input name="edicao.paginaAtual" value="138" id="paginaAtual" type="hidden">
+				<input name="edicao.jornal_hidden" value="" id="hidden_avancada" class="hidden_avancada" type="hidden">
+				<input name="edicao.consultaAntiga" id="consultaAntiga_jornal" value="" type="hidden">
+				<input name="edicao.fonetica" id="consultaAntiga_fonetica" value="null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null" type="hidden">
+				<span class="TRNtexto">Informe o termo que deseja pesquisar:</span>
+				<span class="TRNtexto"><input name="edicao.txtPesquisa" value="Anatel" id="txtPesquisa_avancada" type="text">&nbsp; 
+				<input id="pesquisa02_0" value="consulta" class="submit" onclick="submete(1);" type="submit">
+</span>
+				
+				<br><br>
+				
+				<table width="500" border="0" cellpadding="0" cellspacing="0">
+					
+					<tbody><tr><td colspan="3">Selecione o Jornal: </td></tr>
+					<tr>
+						<td>
+							<input name="edicao.jornal" value="1,1000,1010,2,2000,3,3000,4,5,6,126,4000,5000,600,20,21,1020" id="chk_avancada_0" class="jornal_avancada" classname="todos" type="checkbox">
+<input id="__checkbox_chk_avancada_0" name="__checkbox_edicao.jornal" value="1,1000,1010,2,2000,3,3000,4,5,6,126,4000,5000,600,20,21,1020" type="hidden"> 
+							Todos
+						</td>
+						<td>
+							<input name="edicao.jornal" value="1,1000,1010,1020" id="chk_avancada_1" class="jornal_avancada" type="checkbox">
+<input id="__checkbox_chk_avancada_1" name="__checkbox_edicao.jornal" value="1,1000,1010,1020" type="hidden"> 
+							<a href="#" id="DO1" title="Leis, decretos, resoluções, instruções normativas, portarias e outros atos normativos de interesse geral.">DOU1</a>
+						</td>
+						<td>
+							<input name="edicao.jornal" value="2,2000" id="chk_avancada_3" class="jornal_avancada" type="checkbox">
+<input id="__checkbox_chk_avancada_3" name="__checkbox_edicao.jornal" value="2,2000" type="hidden"> 
+							<a href="#" id="DO2" title="Atos de interesse dos servidores da Administração Pública Federal.">DOU2</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input name="edicao.jornal" value="3,3000" id="chk_avancada_4" class="jornal_avancada" type="checkbox">
+<input id="__checkbox_chk_avancada_4" name="__checkbox_edicao.jornal" value="3,3000" type="hidden"> 
+							<a href="#" id="DO3" title="Contratos, editais, avisos e ineditoriais.">DOU3</a>
+						</td>
+						<td>
+							<input name="edicao.jornal" value="4000,5000,6000,126,4,5,6,126" id="chk_avancada_5" class="jornal_avancada" type="checkbox">
+<input id="__checkbox_chk_avancada_5" name="__checkbox_edicao.jornal" value="4000,5000,6000,126,4,5,6,126" type="hidden"> 
+							DJUnico
+						</td>
+						<td>
+							<input name="edicao.jornal" value="20,21" id="chk_avancada_2" class="jornal_avancada" type="checkbox">
+<input id="__checkbox_chk_avancada_2" name="__checkbox_edicao.jornal" value="20,21" type="hidden"> 
+							eDJF1
+						</td>
+					</tr>
+				</tbody></table>
+				                                
+				<table width="300" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr><td colspan="2">Tipo de Pesquisa:</td></tr>
+					<tr>
+						<td><input name="edicao.fonetica" value="S" type="radio">Fonética</td>
+						<td><input name="edicao.fonetica" value="null" checked="checked" type="radio">Exata</td>
+					</tr>
+				</tbody></table>
+				                                
+				<table width="400" border="0" cellpadding="0" cellspacing="0">
+					
+					<tbody><tr><td colspan="3">Período:</td></tr>
+					<tr>
+						<td>Data Início: <input name="edicao.dtInicio" size="5" maxlength="5" value="01/01" id="dt_inicio_avansada" onkeypress="javascript:mascara(this,mesAno);" type="text">     </td>
+						<td> Data Fim: <input name="edicao.dtFim" size="5" maxlength="5" value="31/12" id="dt_fim_avansada" onkeypress="javascript:mascara(this,mesAno);" type="text">             </td>
+						<td> Ano: <select name="edicao.ano" id="ano_avansada" style="width: 140px;">
+    <option value="0"> -- Selecionar -- </option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+    <option value="2007">2007</option>
+    <option value="2006">2006</option>
+    <option value="2005">2005</option>
+    <option value="2004">2004</option>
+    <option value="2003">2003</option>
+    <option value="2002">2002</option>
+    <option value="2001">2001</option>
+    <option value="2000">2000</option>
+    <option value="1999" selected="selected">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1992">1992</option>
+    <option value="1991">1991</option>
+    <option value="1990">1990</option>
+
+
+</select>
+</td>
+					</tr>
+					
+				</tbody></table>
+				
+			</form>
+
+
+
+		
+			
+		</div>
+
+
+		<div class="abaconteudo"> &nbsp;&nbsp;&nbsp;Abrir/Fechar Pesquisa</div>
+			<div id="conteudo" align="center">
+				<br><br>
+				<div id="paginacao">
+					<span>2368 itens encontrados, exibindo 1371 a 1380. [<a href="#" onclick="submete(1)">Primeiro</a>/<a href="#" onclick="submete(137)">Anterior</a>]&nbsp;<a href="#" onclick="submete(133)">133</a>&nbsp;<a href="#" onclick="submete(134)">134</a>&nbsp;<a href="#" onclick="submete(135)">135</a>&nbsp;<a href="#" onclick="submete(136)">136</a>&nbsp;<a href="#" onclick="submete(137)">137</a>&nbsp;<b>138</b>&nbsp;<a href="#" onclick="submete(139)">139</a>&nbsp;<a href="#" onclick="submete(140)">140</a>&nbsp;<a href="#" onclick="submete(141)">141</a>&nbsp;<a href="#" onclick="submete(142)">142</a>[<a href="#" onclick="submete(139)">Próximo</a>/<a href="#" onclick="submete(237)">Último</a>]
+				</span></div>
+				<br><br>
+				<table width="760">
+					<tbody><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=57&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 57</a></th></tr><tr><td class="data">... PBOG/SPB     n°78198 - <font color="black"><b>ANATEL,</b></font>
+ submeteu,  formalmente, pedido de homologação de reajuste  das tarifas,
+ resolve:    Art.  1° Hornolooar, na forma do Anexo deste Ato, os 
+valores tarifários máximos do ?lano Básico do STFC,     modalidade longa
+ d...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=58&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 58</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo -art.  22 da Lei 
+n° 9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da 
+Agência, aprovado pelo Decreto n°    2.338, dei deoutubro- de 1997, por 
+me...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=59&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 59</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo art.  22 da Lei n°
+ 9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da 
+Agência, aprovado pelo Decreto n° 2.338, de 7 de outubro de 1997, por 
+meio ...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=60&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 60</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo art.  22 da Lei n°
+ 9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da 
+Agência, aprovado pelo Decreto n°    2.338, de 7 de-outubro-de 1997, por
+ me...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=61&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 61</a></th></tr><tr><td class="data">... PBOG/SPB     n° 60198 - <font color="black"><b>ANATEL,</b></font>
+ submeteu,  formalmente, pedido de homologação de reajuste  das tarifas,
+ resolve: Art.  1° Homologar, na forma do Anexo deste Ato, os valores 
+tãrifrios máximos do Plano Básico do STFC,     modalidade longa 
+distân...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=62&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 62</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo-art.  22 da Lei 
+n°9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da 
+Agência, aprovado pelo Decreto n° 2.338, de 7 de outubro de 1997, por 
+meio d...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=63&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 63</a></th></tr><tr><td class="data">... de 13 de julho  de 1998 da <font color="black"><b>Anatel,</b></font>
+ relativo à    Concessionária referida no art.  1°. Art.  50 Estabelecer
+ que a vigência dos valores tarifários constantes do Anexo ao presente 
+Ato será a partir de 22 dejunho  de 1999, em- -conformidade com o dis...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=64&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 64</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo art.  22 da Lei n°
+ 9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da 
+Agência, aprovado pelo Decreto n° 2.338, de 7 de outubro de 1997, por 
+meio ...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=65&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 65</a></th></tr><tr><td class="data">... DE TELECOMUNICAÇÕES - <font color="black"><b>ANATEL,</b></font>
+ no uso das atribuições que lhe foram conferidas pelo art.  22 da Lei n 
+9.472, de 16 de julho  de 1997, e o art.  35, do Regulamento da Agência,
+ aprovado pelo Decreto n° 2.338, de 7 de outubro de 1997, por meio d...</td></tr><tr><th class="data" align="left"><a target="_blank" href="http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=66&amp;data=18/06/1999">Diário Oficial da União - Seção 1 - Edição nr 115 de 18/06/1999 Pag. 66</a></th></tr><tr><td class="data">... de 13 de julho  de 1998 da <font color="black"><b>Anatel,</b></font>
+ relativo à Concessionária referida no art.  1°.    Art.  5° Estabelecer
+ que a vigência dos valores tarifários constantes do Anexo ao presente 
+Ato será a partir de 22 de junho  de 1999, em conformidade com o disp...</td></tr>
+				</tbody></table>
+				<br><br>
+			</div>
+		
+		
+		                 
+		
+	
+	
+         
+                    
+ 
+<div style="display: none;" id="ajax-spinner"><img src="138%20P%C3%A1gina%20Inicial%20%E2%80%94%20Portal%20da%20Imprensa%20Nacional_files/spinner.gif" alt=""></div></body></html>
